@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.5 on win32)" generated="20200929 23:01:31.741" rpa="false">
+<suite id="s1" name="Testsuit01" source="C:\Users\fi79c\Desktop\Robot Projects\demo\Testsuit01.robot">
+<test id="s1-t1" name="TC01">
+<kw name="Should Be Equal" library="BuiltIn">
+<doc>Fails if the given objects are unequal.</doc>
+<arguments>
+<arg>${var1}</arg>
+<arg>${var2}</arg>
+</arguments>
+<status status="PASS" starttime="20200929 23:01:32.609" endtime="20200929 23:01:32.609"></status>
+</kw>
+<doc>Thisi is my first test case.   It is used to compare two variables
+*Testcase01*  _This will be in Italic_
+link is   http://www.google.com</doc>
+<tags>
+<tag>Login</tag>
+</tags>
+<status status="PASS" starttime="20200929 23:01:32.608" endtime="20200929 23:01:32.610" critical="yes"></status>
+</test>
+<test id="s1-t2" name="TC02">
+<tags>
+<tag>Login</tag>
+</tags>
+<status status="FAIL" starttime="20200929 23:01:32.611" endtime="20200929 23:01:32.612" critical="yes">Test case contains no keywords.</status>
+</test>
+<test id="s1-t3" name="TC03">
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${Credentials}[username]</arg>
+<arg>${Credentials}[password]</arg>
+</arguments>
+<status status="PASS" starttime="20200929 23:01:32.615" endtime="20200929 23:01:32.615"></status>
+</kw>
+<tags>
+<tag>Login</tag>
+</tags>
+<status status="PASS" starttime="20200929 23:01:32.615" endtime="20200929 23:01:32.616" critical="yes"></status>
+</test>
+<test id="s1-t4" name="TC04">
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>4</arg>
+<arg>4</arg>
+</arguments>
+<status status="PASS" starttime="20200929 23:01:32.618" endtime="20200929 23:01:32.618"></status>
+</kw>
+<tags>
+<tag>Login</tag>
+</tags>
+<status status="PASS" starttime="20200929 23:01:32.617" endtime="20200929 23:01:32.618" critical="yes"></status>
+</test>
+<status status="FAIL" starttime="20200929 23:01:31.743" endtime="20200929 23:01:32.620"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="1">Critical Tests</stat>
+<stat pass="3" fail="1">All Tests</stat>
+</total>
+<tag>
+<stat pass="3" fail="1">Login</stat>
+</tag>
+<suite>
+<stat pass="3" fail="1" id="s1" name="Testsuit01">Testsuit01</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
